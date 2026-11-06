@@ -210,3 +210,8 @@ __marimo__/
 logs/
 metrics/
 node_modules/
+
+# LaTeX build files
+paper/*.aux
+paper/*.log
+paper/*.out
