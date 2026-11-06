@@ -133,4 +133,7 @@ This is a **hackathon prototype**. The paper reports preliminary results from a 
 
 Built by **Ravpreet Singh Gill**, **Hamza Latif**, **Cyrus Chan** and **Navneet Mann** (UCL).
 
-**My contribution ([@cyrchanh](https://github.com/cyrchanh)):** I built the AEGIS X governance layer: the Guardian, Attacker and Observer agents, the arXiv/Valyu-driven red-team loop with adversarial evaluation, monitoring and logging, and the naive baseline it is compared against.
+**My contribution ([@cyrchanh](https://github.com/cyrchanh)):**
+- **Ideas & education design:** helped shape the project concept, including the educational AI-tutor scenario the governance layer is demonstrated on
+- **AEGIS X governance layer:** the Guardian, Attacker and Observer agents, the arXiv/Valyu-driven red-team loop with adversarial evaluation, monitoring and logging, and the naive baseline it is compared against
+- **Frontend:** the React chat interface (`frontend/Nova_UI.js`)
