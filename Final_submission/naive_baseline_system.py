@@ -10,9 +10,8 @@ import random
 # ============================================
 # Setup API Keys
 # ============================================
-os.environ["HOLISTIC_AI_TEAM_ID"] = "tutorials_api"
-os.environ["HOLISTIC_AI_API_TOKEN"] = "SIcWmrU0745_QHALRull6gGpTPu3q268zCqGMrbQP4E"
-os.environ["VALYU_API_KEY"] = "9zcKqppadwaXGMXPI4Rdf48gaLWEX52O"
+from dotenv import load_dotenv
+load_dotenv()  # reads HOLISTIC_AI_TEAM_ID, HOLISTIC_AI_API_TOKEN, VALYU_API_KEY from .env
 
 # ============================================
 # Holistic AI Chat Model (same as before)

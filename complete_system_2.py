@@ -6,9 +6,8 @@ from typing import Dict, Optional, List
 import requests
 import xml.etree.ElementTree as ET
 
-os.environ["HOLISTIC_AI_TEAM_ID"] = "tutorials_api"
-os.environ["HOLISTIC_AI_API_TOKEN"] = "SIcWmrU0745_QHALRull6gGpTPu3q268zCqGMrbQP4E"
-os.environ["VALYU_API_KEY"] = "9zcKqppadwaXGMXPI4Rdf48gaLWEX52O"
+from dotenv import load_dotenv
+load_dotenv()  # reads HOLISTIC_AI_TEAM_ID, HOLISTIC_AI_API_TOKEN, VALYU_API_KEY from .env
 
 # [Previous code for chat model, ArXiv scraper, etc. - same as before]
 import json
